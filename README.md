@@ -27,7 +27,6 @@ The primary objective of this project is to determine if there is a significant 
 2. **Software**:
    - Lab Streaming Layer (LSL) for real-time data streaming and synchronization of EEG and ECG signals.
    - Custom scripts to process ECG and EEG signals in real-time and identify cardiac phases.
-   - Real-time data analysis tools to process HEP responses during the diastole phase.
 
 ## Installation
 
