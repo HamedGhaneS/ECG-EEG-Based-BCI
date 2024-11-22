@@ -22,7 +22,7 @@ Required Libraries:
 - time, sys: for system operations
 
 Usage:
-1. Start ECG detection script first
+1. Start the R_Peak detection script first
 2. Run this script
 3. Press 'q' to quit
 
