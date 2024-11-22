@@ -6,7 +6,7 @@ Date: November 22, 2024
 
 This script performs real-time R-peak detection from ECG data streamed via LSL,
 with precise timestamp recording of marker sending times. Compatible with both
-BrainVision amplifier streams and simulated ECG data.
+real BrainVision amplifier streams and simulated recorded EEG/ECG streaming.
 
 Features:
 - Real-time R-peak detection with adaptive thresholding
