@@ -38,7 +38,6 @@ class CardiacSyncedLearningTask:
             }
         }
         
-        # Add this line right after settings initialization
         self.block_timing_map = self.create_randomized_block_order()
         
         # Setup Cedrus box first to ensure it's ready before other initializations
@@ -66,7 +65,7 @@ class CardiacSyncedLearningTask:
         )
         self.marker_outlet = StreamOutlet(self.marker_info)
 
-        # Marker codes [previous marker codes remain the same]
+        # Marker codes
         self.markers = {
             'experiment_start': 'exp_start',
             'experiment_end': 'exp_end',
@@ -105,7 +104,7 @@ class CardiacSyncedLearningTask:
             }
         }
 
-        # Task instructions [previous instructions remain the same]
+        # Task instructions
         self.instructions = [
             """Welcome to the experiment!
 
@@ -326,7 +325,7 @@ class CardiacSyncedLearningTask:
             'session': '001',
             'run': '1',
             'n_blocks': 6,      # Fixed at 6 blocks
-            'n_trials': 10,     # Fixed at 40 trials - 
+            'n_trials': 10,     # Fixed at 10 trials - 
             'date_time': current_time,
         }
 
