@@ -1,3 +1,49 @@
+"""
+CardiacSyncedLearningTask.py
+Author: Hamed Ghane
+Date: January 10, 2025
+Last Modified: January 10, 2025
+
+This script implements a cardiac-synchronized learning task using PsychoPy. The task presents
+participants with a two-alternative forced choice paradigm where feedback timing is synchronized
+with cardiac phases (systole/diastole).
+
+Key Features:
+- Probabilistic learning task with reward probabilities that reverse mid-block
+- Cardiac synchronization using Lab Streaming Layer (LSL) for R-peak detection
+- Cedrus response box integration for precise response timing
+- Comprehensive data logging including trial timing, choices, and outcomes
+
+Major Update (January 10, 2025):
+Added enhanced LSL timing pair logging functionality through:
+1. New marker_timing_pairs list to store comprehensive timing information
+2. Enhanced collect_r_peaks() method to record both PC1 (sender) and PC2 (local) timestamps
+3. New save_timing_pairs() method to create detailed CSV files containing:
+   - Peak number
+   - PC1 LSL time (sender timestamp)
+   - PC2 LSL time (local timestamp)
+   - Calculated offset between PCs
+   - R-R interval
+   - Heart rate
+   - Time recorded
+
+This modification enables precise analysis of timing synchronization between two computers
+running the LSL stream, which is crucial for cardiac-behavioral correlations.
+
+Dependencies:
+- PsychoPy
+- NumPy
+- Pandas
+- Lab Streaming Layer (LSL)
+- Cedrus Response Box (pyxid2/pyxid)
+
+Usage:
+Run as main script to launch the experimental interface. Participant information will be
+collected via dialog box, and data will be saved in the ./data directory.
+"""
+
+
+
 import random 
 from psychopy import visual, core, data, event, gui
 import pandas as pd
