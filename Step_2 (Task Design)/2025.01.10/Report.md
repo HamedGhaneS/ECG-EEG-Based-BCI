@@ -6,7 +6,7 @@ The script implements a cardiac-synchronized learning task using **PsychoPy**, *
 ### 2. Output File Logs
 **Log Types:**
 1. **Data File (CSV):** Contains trial-wise data, including reaction times, choice outcomes, cardiac timing information, and timestamps.
-2. **Timing Pairs (CSV):** Logs of R-peak timing pairs collected during the experiment.
+2. **Timing Pairs (CSV):** Logs of R-peak timing pairs collected during the experiment, including timing in both PC LSL local clock to measure the LSL clock offset, for post experiment synchronization analysis.
 3. **Block Order File (TXT):** Detailed block order information, including randomized conditions and cardiac phases.
 4. **Symbol Allocations (TXT):** Summary of symbol allocations and outcome probabilities before and after reversal points.
 
