@@ -1,5 +1,4 @@
 """
-CardiacSyncedLearningTask.py
 Author: Hamed Ghane
 Date: January 10, 2025
 Last Modified: January 10, 2025
@@ -39,7 +38,8 @@ Dependencies:
 
 Usage:
 Run as main script to launch the experimental interface. Participant information will be
-collected via dialog box, and data will be saved in the ./data directory.
+collected via dialogue box, and data will be saved in the ./data directory.
+The other script for real-time R_peak detection and LSL marker sending should run simultaneously on the other PC.
 """
 
 
