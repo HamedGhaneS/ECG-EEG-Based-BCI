@@ -1,5 +1,8 @@
 # Real-Time ECG-EEG BCI for Cardiac Cycle Modulation in Outcome Presentation
 
+![Heart-Brain Diagram](https://github.com/HamedGhaneS/ECG-EEG-Based-BCI/blob/main/HeartBrain.png.jpg)
+
+
 This project is a real-time ECG-EEG-based Brain-Computer Interface (BCI) experiment aimed at investigating the influence of cardiac phase timing on brain activity, specifically through Heartbeat-Evoked Potentials (HEP), in the context of outcome presentation. The experiment is based on the findings of the paper **[Timing along the cardiac cycle modulates neural signals of reward-based learning](https://www.nature.com/articles/s41467-024-46921-5)** by Fouragnan et al. (2024), which highlights the distinct neural responses associated with systole and diastole phases during learning processes.
 
 ## Background
