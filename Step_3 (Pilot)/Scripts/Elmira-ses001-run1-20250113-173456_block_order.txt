@@ -1,0 +1,45 @@
+Block Order Information
+=====================
+
+Block 1:
+  Original Condition: Block 1
+  Cardiac Phase: systole
+  Timing Point: early
+  R-R Percentage: 6.0%
+--------------------------------------------------
+
+Block 2:
+  Original Condition: Block 2
+  Cardiac Phase: diastole
+  Timing Point: late
+  R-R Percentage: 90.0%
+--------------------------------------------------
+
+Block 3:
+  Original Condition: Block 3
+  Cardiac Phase: diastole
+  Timing Point: early
+  R-R Percentage: 50.0%
+--------------------------------------------------
+
+Block 4:
+  Original Condition: Block 4
+  Cardiac Phase: systole
+  Timing Point: mid
+  R-R Percentage: 21.0%
+--------------------------------------------------
+
+Block 5:
+  Original Condition: Block 5
+  Cardiac Phase: systole
+  Timing Point: late
+  R-R Percentage: 36.0%
+--------------------------------------------------
+
+Block 6:
+  Original Condition: Block 6
+  Cardiac Phase: diastole
+  Timing Point: mid
+  R-R Percentage: 70.0%
+--------------------------------------------------
+
