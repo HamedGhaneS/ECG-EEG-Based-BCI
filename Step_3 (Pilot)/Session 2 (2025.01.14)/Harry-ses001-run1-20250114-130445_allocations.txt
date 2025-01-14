@@ -1,0 +1,363 @@
+EXPERIMENT SYMBOL ALLOCATIONS
+==================================================
+
+BLOCK 1 REPORT
+Reversal Point: Trial 19
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Win  | Symbol B -> Loss
+Trial  1: Symbol A -> Win  | Symbol B -> Loss
+Trial  2: Symbol A -> Win  | Symbol B -> Loss
+Trial  3: Symbol A -> Win  | Symbol B -> Win 
+Trial  4: Symbol A -> Win  | Symbol B -> Loss
+Trial  5: Symbol A -> Win  | Symbol B -> Loss
+Trial  6: Symbol A -> Loss | Symbol B -> Win 
+Trial  7: Symbol A -> Loss | Symbol B -> Loss
+Trial  8: Symbol A -> Loss | Symbol B -> Loss
+Trial  9: Symbol A -> Win  | Symbol B -> Loss
+Trial 10: Symbol A -> Loss | Symbol B -> Loss
+Trial 11: Symbol A -> Loss | Symbol B -> Win 
+Trial 12: Symbol A -> Win  | Symbol B -> Loss
+Trial 13: Symbol A -> Win  | Symbol B -> Loss
+Trial 14: Symbol A -> Win  | Symbol B -> Win 
+Trial 15: Symbol A -> Loss | Symbol B -> Loss
+Trial 16: Symbol A -> Win  | Symbol B -> Loss
+Trial 17: Symbol A -> Win  | Symbol B -> Win 
+Trial 18: Symbol A -> Win  | Symbol B -> Win 
+
+Before Reversal Summary:
+Symbol A: 13 Wins (68.4%)
+Symbol B: 6 Wins (31.6%)
+
+After Reversal:
+------------------------------
+Trial 19: Symbol A -> Loss | Symbol B -> Loss
+Trial 20: Symbol A -> Win  | Symbol B -> Loss
+Trial 21: Symbol A -> Win  | Symbol B -> Win 
+Trial 22: Symbol A -> Win  | Symbol B -> Win 
+Trial 23: Symbol A -> Loss | Symbol B -> Loss
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Loss | Symbol B -> Loss
+Trial 26: Symbol A -> Loss | Symbol B -> Win 
+Trial 27: Symbol A -> Loss | Symbol B -> Win 
+Trial 28: Symbol A -> Loss | Symbol B -> Win 
+Trial 29: Symbol A -> Loss | Symbol B -> Win 
+Trial 30: Symbol A -> Loss | Symbol B -> Win 
+Trial 31: Symbol A -> Win  | Symbol B -> Win 
+Trial 32: Symbol A -> Loss | Symbol B -> Loss
+Trial 33: Symbol A -> Loss | Symbol B -> Win 
+Trial 34: Symbol A -> Loss | Symbol B -> Loss
+Trial 35: Symbol A -> Loss | Symbol B -> Win 
+Trial 36: Symbol A -> Loss | Symbol B -> Win 
+Trial 37: Symbol A -> Win  | Symbol B -> Win 
+Trial 38: Symbol A -> Win  | Symbol B -> Win 
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 6 Wins (28.6%)
+Symbol B: 15 Wins (71.4%)
+
+==================================================
+
+BLOCK 2 REPORT
+Reversal Point: Trial 21
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Win  | Symbol B -> Win 
+Trial  1: Symbol A -> Loss | Symbol B -> Loss
+Trial  2: Symbol A -> Win  | Symbol B -> Loss
+Trial  3: Symbol A -> Win  | Symbol B -> Loss
+Trial  4: Symbol A -> Win  | Symbol B -> Loss
+Trial  5: Symbol A -> Win  | Symbol B -> Loss
+Trial  6: Symbol A -> Win  | Symbol B -> Loss
+Trial  7: Symbol A -> Win  | Symbol B -> Win 
+Trial  8: Symbol A -> Win  | Symbol B -> Loss
+Trial  9: Symbol A -> Win  | Symbol B -> Loss
+Trial 10: Symbol A -> Win  | Symbol B -> Win 
+Trial 11: Symbol A -> Loss | Symbol B -> Loss
+Trial 12: Symbol A -> Loss | Symbol B -> Loss
+Trial 13: Symbol A -> Loss | Symbol B -> Loss
+Trial 14: Symbol A -> Win  | Symbol B -> Loss
+Trial 15: Symbol A -> Win  | Symbol B -> Win 
+Trial 16: Symbol A -> Win  | Symbol B -> Win 
+Trial 17: Symbol A -> Win  | Symbol B -> Win 
+Trial 18: Symbol A -> Win  | Symbol B -> Loss
+Trial 19: Symbol A -> Loss | Symbol B -> Loss
+Trial 20: Symbol A -> Loss | Symbol B -> Loss
+
+Before Reversal Summary:
+Symbol A: 15 Wins (71.4%)
+Symbol B: 6 Wins (28.6%)
+
+After Reversal:
+------------------------------
+Trial 21: Symbol A -> Loss | Symbol B -> Loss
+Trial 22: Symbol A -> Loss | Symbol B -> Win 
+Trial 23: Symbol A -> Loss | Symbol B -> Loss
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Win  | Symbol B -> Loss
+Trial 26: Symbol A -> Loss | Symbol B -> Loss
+Trial 27: Symbol A -> Loss | Symbol B -> Win 
+Trial 28: Symbol A -> Loss | Symbol B -> Win 
+Trial 29: Symbol A -> Loss | Symbol B -> Win 
+Trial 30: Symbol A -> Loss | Symbol B -> Win 
+Trial 31: Symbol A -> Win  | Symbol B -> Win 
+Trial 32: Symbol A -> Loss | Symbol B -> Win 
+Trial 33: Symbol A -> Win  | Symbol B -> Win 
+Trial 34: Symbol A -> Win  | Symbol B -> Win 
+Trial 35: Symbol A -> Win  | Symbol B -> Win 
+Trial 36: Symbol A -> Loss | Symbol B -> Win 
+Trial 37: Symbol A -> Loss | Symbol B -> Loss
+Trial 38: Symbol A -> Win  | Symbol B -> Loss
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 6 Wins (31.6%)
+Symbol B: 13 Wins (68.4%)
+
+==================================================
+
+BLOCK 3 REPORT
+Reversal Point: Trial 20
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Win  | Symbol B -> Win 
+Trial  1: Symbol A -> Win  | Symbol B -> Loss
+Trial  2: Symbol A -> Win  | Symbol B -> Loss
+Trial  3: Symbol A -> Win  | Symbol B -> Loss
+Trial  4: Symbol A -> Loss | Symbol B -> Loss
+Trial  5: Symbol A -> Win  | Symbol B -> Win 
+Trial  6: Symbol A -> Win  | Symbol B -> Win 
+Trial  7: Symbol A -> Loss | Symbol B -> Loss
+Trial  8: Symbol A -> Win  | Symbol B -> Loss
+Trial  9: Symbol A -> Loss | Symbol B -> Loss
+Trial 10: Symbol A -> Win  | Symbol B -> Win 
+Trial 11: Symbol A -> Win  | Symbol B -> Win 
+Trial 12: Symbol A -> Loss | Symbol B -> Loss
+Trial 13: Symbol A -> Win  | Symbol B -> Loss
+Trial 14: Symbol A -> Win  | Symbol B -> Loss
+Trial 15: Symbol A -> Loss | Symbol B -> Loss
+Trial 16: Symbol A -> Win  | Symbol B -> Loss
+Trial 17: Symbol A -> Loss | Symbol B -> Loss
+Trial 18: Symbol A -> Win  | Symbol B -> Loss
+Trial 19: Symbol A -> Win  | Symbol B -> Win 
+
+Before Reversal Summary:
+Symbol A: 14 Wins (70.0%)
+Symbol B: 6 Wins (30.0%)
+
+After Reversal:
+------------------------------
+Trial 20: Symbol A -> Win  | Symbol B -> Loss
+Trial 21: Symbol A -> Loss | Symbol B -> Loss
+Trial 22: Symbol A -> Win  | Symbol B -> Loss
+Trial 23: Symbol A -> Loss | Symbol B -> Win 
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Loss | Symbol B -> Loss
+Trial 26: Symbol A -> Win  | Symbol B -> Win 
+Trial 27: Symbol A -> Win  | Symbol B -> Win 
+Trial 28: Symbol A -> Loss | Symbol B -> Win 
+Trial 29: Symbol A -> Loss | Symbol B -> Win 
+Trial 30: Symbol A -> Loss | Symbol B -> Win 
+Trial 31: Symbol A -> Loss | Symbol B -> Loss
+Trial 32: Symbol A -> Loss | Symbol B -> Loss
+Trial 33: Symbol A -> Win  | Symbol B -> Win 
+Trial 34: Symbol A -> Loss | Symbol B -> Win 
+Trial 35: Symbol A -> Win  | Symbol B -> Win 
+Trial 36: Symbol A -> Loss | Symbol B -> Win 
+Trial 37: Symbol A -> Loss | Symbol B -> Win 
+Trial 38: Symbol A -> Loss | Symbol B -> Win 
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 6 Wins (30.0%)
+Symbol B: 14 Wins (70.0%)
+
+==================================================
+
+BLOCK 4 REPORT
+Reversal Point: Trial 18
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Win  | Symbol B -> Loss
+Trial  1: Symbol A -> Win  | Symbol B -> Loss
+Trial  2: Symbol A -> Win  | Symbol B -> Loss
+Trial  3: Symbol A -> Win  | Symbol B -> Loss
+Trial  4: Symbol A -> Loss | Symbol B -> Loss
+Trial  5: Symbol A -> Win  | Symbol B -> Loss
+Trial  6: Symbol A -> Win  | Symbol B -> Win 
+Trial  7: Symbol A -> Win  | Symbol B -> Win 
+Trial  8: Symbol A -> Loss | Symbol B -> Win 
+Trial  9: Symbol A -> Loss | Symbol B -> Loss
+Trial 10: Symbol A -> Win  | Symbol B -> Loss
+Trial 11: Symbol A -> Loss | Symbol B -> Loss
+Trial 12: Symbol A -> Loss | Symbol B -> Loss
+Trial 13: Symbol A -> Win  | Symbol B -> Win 
+Trial 14: Symbol A -> Win  | Symbol B -> Win 
+Trial 15: Symbol A -> Win  | Symbol B -> Loss
+Trial 16: Symbol A -> Win  | Symbol B -> Loss
+Trial 17: Symbol A -> Win  | Symbol B -> Loss
+
+Before Reversal Summary:
+Symbol A: 13 Wins (72.2%)
+Symbol B: 5 Wins (27.8%)
+
+After Reversal:
+------------------------------
+Trial 18: Symbol A -> Loss | Symbol B -> Win 
+Trial 19: Symbol A -> Loss | Symbol B -> Win 
+Trial 20: Symbol A -> Win  | Symbol B -> Win 
+Trial 21: Symbol A -> Loss | Symbol B -> Win 
+Trial 22: Symbol A -> Win  | Symbol B -> Loss
+Trial 23: Symbol A -> Loss | Symbol B -> Win 
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Win  | Symbol B -> Loss
+Trial 26: Symbol A -> Win  | Symbol B -> Win 
+Trial 27: Symbol A -> Loss | Symbol B -> Loss
+Trial 28: Symbol A -> Loss | Symbol B -> Win 
+Trial 29: Symbol A -> Loss | Symbol B -> Loss
+Trial 30: Symbol A -> Loss | Symbol B -> Win 
+Trial 31: Symbol A -> Loss | Symbol B -> Win 
+Trial 32: Symbol A -> Win  | Symbol B -> Loss
+Trial 33: Symbol A -> Loss | Symbol B -> Win 
+Trial 34: Symbol A -> Loss | Symbol B -> Loss
+Trial 35: Symbol A -> Win  | Symbol B -> Win 
+Trial 36: Symbol A -> Win  | Symbol B -> Win 
+Trial 37: Symbol A -> Loss | Symbol B -> Win 
+Trial 38: Symbol A -> Loss | Symbol B -> Loss
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 7 Wins (31.8%)
+Symbol B: 15 Wins (68.2%)
+
+==================================================
+
+BLOCK 5 REPORT
+Reversal Point: Trial 20
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Loss | Symbol B -> Loss
+Trial  1: Symbol A -> Win  | Symbol B -> Loss
+Trial  2: Symbol A -> Win  | Symbol B -> Loss
+Trial  3: Symbol A -> Loss | Symbol B -> Loss
+Trial  4: Symbol A -> Loss | Symbol B -> Win 
+Trial  5: Symbol A -> Win  | Symbol B -> Loss
+Trial  6: Symbol A -> Win  | Symbol B -> Win 
+Trial  7: Symbol A -> Win  | Symbol B -> Loss
+Trial  8: Symbol A -> Win  | Symbol B -> Loss
+Trial  9: Symbol A -> Loss | Symbol B -> Win 
+Trial 10: Symbol A -> Win  | Symbol B -> Loss
+Trial 11: Symbol A -> Win  | Symbol B -> Loss
+Trial 12: Symbol A -> Win  | Symbol B -> Loss
+Trial 13: Symbol A -> Win  | Symbol B -> Loss
+Trial 14: Symbol A -> Win  | Symbol B -> Win 
+Trial 15: Symbol A -> Win  | Symbol B -> Win 
+Trial 16: Symbol A -> Loss | Symbol B -> Loss
+Trial 17: Symbol A -> Win  | Symbol B -> Win 
+Trial 18: Symbol A -> Loss | Symbol B -> Loss
+Trial 19: Symbol A -> Win  | Symbol B -> Loss
+
+Before Reversal Summary:
+Symbol A: 14 Wins (70.0%)
+Symbol B: 6 Wins (30.0%)
+
+After Reversal:
+------------------------------
+Trial 20: Symbol A -> Loss | Symbol B -> Loss
+Trial 21: Symbol A -> Loss | Symbol B -> Loss
+Trial 22: Symbol A -> Loss | Symbol B -> Win 
+Trial 23: Symbol A -> Loss | Symbol B -> Win 
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Loss | Symbol B -> Win 
+Trial 26: Symbol A -> Win  | Symbol B -> Win 
+Trial 27: Symbol A -> Win  | Symbol B -> Win 
+Trial 28: Symbol A -> Loss | Symbol B -> Win 
+Trial 29: Symbol A -> Win  | Symbol B -> Win 
+Trial 30: Symbol A -> Win  | Symbol B -> Loss
+Trial 31: Symbol A -> Loss | Symbol B -> Loss
+Trial 32: Symbol A -> Win  | Symbol B -> Win 
+Trial 33: Symbol A -> Loss | Symbol B -> Win 
+Trial 34: Symbol A -> Loss | Symbol B -> Win 
+Trial 35: Symbol A -> Loss | Symbol B -> Win 
+Trial 36: Symbol A -> Loss | Symbol B -> Loss
+Trial 37: Symbol A -> Win  | Symbol B -> Win 
+Trial 38: Symbol A -> Loss | Symbol B -> Loss
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 6 Wins (30.0%)
+Symbol B: 14 Wins (70.0%)
+
+==================================================
+
+BLOCK 6 REPORT
+Reversal Point: Trial 18
+--------------------------------------------------
+
+Before Reversal:
+------------------------------
+Trial  0: Symbol A -> Win  | Symbol B -> Loss
+Trial  1: Symbol A -> Loss | Symbol B -> Loss
+Trial  2: Symbol A -> Loss | Symbol B -> Loss
+Trial  3: Symbol A -> Win  | Symbol B -> Loss
+Trial  4: Symbol A -> Win  | Symbol B -> Loss
+Trial  5: Symbol A -> Win  | Symbol B -> Win 
+Trial  6: Symbol A -> Win  | Symbol B -> Loss
+Trial  7: Symbol A -> Win  | Symbol B -> Win 
+Trial  8: Symbol A -> Loss | Symbol B -> Loss
+Trial  9: Symbol A -> Loss | Symbol B -> Win 
+Trial 10: Symbol A -> Win  | Symbol B -> Loss
+Trial 11: Symbol A -> Win  | Symbol B -> Loss
+Trial 12: Symbol A -> Win  | Symbol B -> Loss
+Trial 13: Symbol A -> Loss | Symbol B -> Loss
+Trial 14: Symbol A -> Win  | Symbol B -> Loss
+Trial 15: Symbol A -> Win  | Symbol B -> Win 
+Trial 16: Symbol A -> Win  | Symbol B -> Loss
+Trial 17: Symbol A -> Win  | Symbol B -> Win 
+
+Before Reversal Summary:
+Symbol A: 13 Wins (72.2%)
+Symbol B: 5 Wins (27.8%)
+
+After Reversal:
+------------------------------
+Trial 18: Symbol A -> Win  | Symbol B -> Win 
+Trial 19: Symbol A -> Win  | Symbol B -> Win 
+Trial 20: Symbol A -> Loss | Symbol B -> Win 
+Trial 21: Symbol A -> Loss | Symbol B -> Win 
+Trial 22: Symbol A -> Loss | Symbol B -> Win 
+Trial 23: Symbol A -> Loss | Symbol B -> Loss
+Trial 24: Symbol A -> Loss | Symbol B -> Win 
+Trial 25: Symbol A -> Loss | Symbol B -> Win 
+Trial 26: Symbol A -> Win  | Symbol B -> Loss
+Trial 27: Symbol A -> Loss | Symbol B -> Win 
+Trial 28: Symbol A -> Win  | Symbol B -> Win 
+Trial 29: Symbol A -> Loss | Symbol B -> Loss
+Trial 30: Symbol A -> Loss | Symbol B -> Win 
+Trial 31: Symbol A -> Win  | Symbol B -> Loss
+Trial 32: Symbol A -> Win  | Symbol B -> Win 
+Trial 33: Symbol A -> Win  | Symbol B -> Loss
+Trial 34: Symbol A -> Loss | Symbol B -> Loss
+Trial 35: Symbol A -> Loss | Symbol B -> Win 
+Trial 36: Symbol A -> Loss | Symbol B -> Loss
+Trial 37: Symbol A -> Loss | Symbol B -> Win 
+Trial 38: Symbol A -> Loss | Symbol B -> Win 
+Trial 39: Symbol A -> Loss | Symbol B -> Win 
+
+After Reversal Summary:
+Symbol A: 7 Wins (31.8%)
+Symbol B: 15 Wins (68.2%)
+
+==================================================
+
