@@ -1,3 +1,35 @@
+"""
+Author: Hamed Ghane
+Date: January 15, 2025
+
+Script Description:
+This script performs Heartbeat-Evoked Potential (HEP) analysis using simultaneous EEG and ECG recordings.
+The analysis pipeline includes several key processing steps:
+
+1. Data Loading:
+   - Loads XDF format files containing EEG and ECG data
+   - Extracts sampling rate and time series information
+
+2. Signal Processing:
+   - Applies bandpass filtering to EEG (0.5-40 Hz) and ECG (5-15 Hz) signals
+   - Uses Butterworth filters for optimal signal preservation
+   - Detects R-peaks in the ECG signal using amplitude and prominence thresholds
+
+3. HEP Analysis:
+   - Extracts EEG epochs around detected R-peaks (-0.2 to 0.6 seconds)
+   - Averages epochs to compute HEP for different channel groups
+   - Focuses on Frontocentral and Centroparietal regions
+
+4. Statistical Analysis:
+   - Performs time-window analysis (Early: 100-200ms, Mid: 200-300ms, Late: 300-400ms)
+   - Calculates mean amplitudes and statistical significance using t-tests
+   - Generates visualizations with confidence intervals
+
+The script is designed for research in cardiac-brain interactions and produces 
+publication-ready figures and statistical outputs.
+"""
+
+
 import pyxdf
 import numpy as np
 import matplotlib.pyplot as plt
