@@ -1,3 +1,41 @@
+"""
+Cardiac-Neural Signal Processing and Analysis Pipeline
+Author: Hamed Ghane
+Date: January 15, 2025
+
+Processing Pipeline Architecture:
+
+Signal Acquisition and Preprocessing:
+EEG/ECG data (XDF format) undergoes bandpass filtering (EEG: 0.5-40 Hz, butter, order=1)
+with artifact rejection and quality assessment. Temporal alignment ensures precise 
+synchronization between cardiovascular events and neural responses.
+
+Epoch Extraction Algorithm:
+- Time window: -200ms to +600ms around R-peaks
+- Condition segmentation: systole/diastole phases
+- Sub-condition parsing: early/mid/late timing points
+- Channel grouping: frontocentral (0-5) and centroparietal (31-36)
+
+Statistical Analysis Framework:
+1. Within-phase comparisons (early vs. mid vs. late)
+2. Between-phase analysis (systole vs. diastole)
+3. Time windows of interest: 
+   - Early: 100-200ms
+   - Mid: 200-300ms
+   - Late: 300-400ms
+4. Statistical metrics: t-tests, Cohen's d, SEM
+
+Data Requirements:
+- XDF: synchronized EEG/ECG recordings
+- CSV: experimental logs with R-peak annotations
+- TXT: block design information
+- Channel configuration: 63 channels for EEG and the last channel for ECG)
+
+Dependencies: numpy, scipy, pandas, matplotlib, pyxdf
+"""
+
+
+
 import pyxdf
 import numpy as np
 import matplotlib.pyplot as plt
