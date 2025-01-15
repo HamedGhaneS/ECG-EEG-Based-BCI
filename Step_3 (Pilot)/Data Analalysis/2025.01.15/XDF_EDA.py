@@ -1,3 +1,53 @@
+"""
+Author: Hamed Ghane
+Date: January 15, 2025
+
+Script Description:
+This diagnostic tool provides a detailed exploration and visualization of XDF (Extended 
+Data Format) file structures, which are commonly used in multimodal biosignal recordings. 
+The script serves as a debugging and inspection utility for understanding the internal 
+organization of XDF files, particularly useful when working with complex 
+neurophysiological data.
+
+Key Features and Functionality:
+
+1. File Structure Analysis:
+   - Loads XDF files and examines their internal organization
+   - Identifies and counts the number of data streams
+   - Provides a hierarchical view of the file's structure
+   - Preserves nested relationships in the output display
+
+2. Stream Information Display:
+   - Shows detailed information for each data stream
+   - Presents stream metadata in a readable, hierarchical format
+   - Displays the structure of 'info' dictionaries
+   - Reports time series characteristics and dimensions
+
+3. Data Inspection:
+   - Examines time series data types and shapes
+   - Safely handles different data formats and structures
+   - Provides preview of data content where applicable
+   - Implements recursive dictionary exploration for nested structures
+
+4. Output Format:
+   - Uses indentation for clear visualization of nested structures
+   - Implements safe type checking for robust operation
+   - Provides clear separation between different streams
+   - Includes detailed type and shape information for arrays
+
+This tool is particularly valuable for:
+- Debugging XDF file loading issues
+- Understanding data organization in complex recordings
+- Verifying stream configurations
+- Inspecting metadata structures
+
+
+Usage example:
+    file_path = Path("path/to/your/xdf/file")
+    explore_xdf(file_path)
+"""
+
+
 import pyxdf
 import numpy as np
 from pathlib import Path
