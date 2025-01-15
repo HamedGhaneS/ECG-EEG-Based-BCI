@@ -1,3 +1,44 @@
+"""
+Author: Hamed Ghane
+Date: January 15, 2025
+
+Script Description:
+This script provides a visualization and basic analysis tool for examining ECG signals 
+extracted from XDF files containing simultaneous EEG-ECG recordings. It specifically 
+focuses on the last channel of the recording, which typically contains the ECG signal 
+in this experimental setup.
+
+The script performs the following operations:
+
+1. Data Import and Preparation:
+   - Loads XDF format files using the pyxdf library
+   - Automatically identifies and extracts the ECG channel (last channel)
+   - Configures the sampling rate based on file metadata
+
+2. Visualization:
+   - Creates a time-series plot of the ECG signal
+   - Default visualization window is 10 seconds (adjustable via parameter)
+   - Includes proper time scaling and axis labels
+   - Displays grid for better readability
+
+3. Signal Analysis:
+   - Calculates basic statistical measures (mean, standard deviation, min, max)
+   - Performs automated R-peak detection using scipy's find_peaks function
+   - Estimates heart rate from detected R-peaks
+   - Provides real-time statistical output in the console
+
+This tool is particularly useful for:
+- Quick quality assessment of ECG recordings
+- Preliminary heart rate estimation
+- Visual inspection of cardiac signals
+
+
+Usage example:
+    file_path = Path("path/to/your/xdf/file")
+    plot_last_channel(file_path, seconds=10)
+"""
+
+
 import pyxdf
 import numpy as np
 import matplotlib.pyplot as plt
