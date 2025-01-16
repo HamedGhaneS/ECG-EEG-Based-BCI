@@ -1,5 +1,7 @@
 """
-Standard 64-Channel EEG Montage Definition
+Standard 64-Channel EEG Montage Definition for BrainCap MR 64
+https://www.brainproducts.com/downloads/cap-montages/
+
 Following the extended 10-20 system with additional positions
 
 This montage file provides a standardized reference for EEG channel locations
