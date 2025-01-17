@@ -7,7 +7,7 @@ import json
 from scipy import stats
 from mne.stats import permutation_cluster_test
 import matplotlib.pyplot as plt
-
+ 
 # Channel definitions
 ALL_CHANNEL_NAMES = [
     'Fp1', 'Fp2', 'F3', 'F4', 'C3', 'C4', 'P3', 'P4', 'O1', 'O2',
