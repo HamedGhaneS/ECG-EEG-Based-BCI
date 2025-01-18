@@ -17,6 +17,10 @@
   - The R-peak timings from PC2.
 
 ## 3. The Next Step I Should Try:
+- Adding the RL model parameters to the trial segmentation file; Including:
+    - AbsPE
+    - SignedPE
+    - Correct vs Incorrect
 - Investigate the **timing alignment** between:
   - XDF file recording.
   - Trial behavioral data.
