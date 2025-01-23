@@ -28,7 +28,7 @@ analysis_conditions = {
     }
 }
 
-# Updated base path
+# base path
 base_path = r"H:\Post\6th_Phase (ECG-EEG Baced BCI)\2025.01.23\Pilot Data Analysis\Harry\Epoching"
 
 # Plot Saving Path
