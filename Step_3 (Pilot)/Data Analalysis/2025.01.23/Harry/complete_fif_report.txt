@@ -1,0 +1,179 @@
+================================================================================
+COMPLETE EPOCHS REPORT
+================================================================================
+
+
+================================================================================
+CONDITION: abs_pe_epochs
+================================================================================
+
+----------------------------------------
+Lock type: Outcome_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'high_pe': 1, 'low_pe': 2}
+Epochs per event:
+  - high_pe: 118
+  - low_pe: 119
+
+----------------------------------------
+Lock type: R1_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'high_pe': 1, 'low_pe': 2}
+Epochs per event:
+  - high_pe: 118
+  - low_pe: 119
+
+----------------------------------------
+Lock type: R2_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'high_pe': 1, 'low_pe': 2}
+Epochs per event:
+  - high_pe: 118
+  - low_pe: 119
+
+----------------------------------------
+Lock type: R3_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'high_pe': 1, 'low_pe': 2}
+Epochs per event:
+  - high_pe: 118
+  - low_pe: 119
+
+
+================================================================================
+CONDITION: feedback_epochs
+================================================================================
+
+----------------------------------------
+Lock type: Outcome_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'win': 1, 'loss': 2}
+Epochs per event:
+  - win: 124
+  - loss: 113
+
+----------------------------------------
+Lock type: R1_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'win': 1, 'loss': 2}
+Epochs per event:
+  - win: 124
+  - loss: 113
+
+----------------------------------------
+Lock type: R2_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'win': 1, 'loss': 2}
+Epochs per event:
+  - win: 124
+  - loss: 113
+
+----------------------------------------
+Lock type: R3_Locked
+----------------------------------------
+Number of epochs: 237
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'win': 1, 'loss': 2}
+Epochs per event:
+  - win: 124
+  - loss: 113
+
+
+================================================================================
+CONDITION: pe_sign_epochs
+================================================================================
+
+----------------------------------------
+Lock type: Outcome_Locked
+----------------------------------------
+Number of epochs: 233
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'positive_pe': 1, 'negative_pe': 2}
+Epochs per event:
+  - positive_pe: 124
+  - negative_pe: 109
+
+----------------------------------------
+Lock type: R1_Locked
+----------------------------------------
+Number of epochs: 233
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'positive_pe': 1, 'negative_pe': 2}
+Epochs per event:
+  - positive_pe: 124
+  - negative_pe: 109
+
+----------------------------------------
+Lock type: R2_Locked
+----------------------------------------
+Number of epochs: 233
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'positive_pe': 1, 'negative_pe': 2}
+Epochs per event:
+  - positive_pe: 124
+  - negative_pe: 109
+
+----------------------------------------
+Lock type: R3_Locked
+----------------------------------------
+Number of epochs: 233
+Number of channels: 64
+Channel names: [total: 64]
+Sampling frequency (Hz): 5000.0
+Epoch length (s): 0.8
+Events: {'positive_pe': 1, 'negative_pe': 2}
+Epochs per event:
+  - positive_pe: 124
+  - negative_pe: 109
+
+
+================================================================================
+End of Report
+================================================================================
