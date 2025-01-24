@@ -1,4 +1,4 @@
-# Online Meeting with Marios (2025-01-24)
+# Initial HEP Plot Analysis (2025-01-24)
 
 ## Key Observations
 1. **Feedback and Prediction Error (PE) Equivalency:**
