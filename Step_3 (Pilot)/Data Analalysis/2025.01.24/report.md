@@ -1,4 +1,4 @@
-# Initial HEP Plot Analysis (2025-01-24)
+# Online Meeting with Marios (2025-01-24)
 
 ## Key Observations
 1. **Feedback and Prediction Error (PE) Equivalency:**
@@ -21,7 +21,10 @@
      - **Stimulus-locked**.
 
 2. **ERP Observation Issue:**
-   - Why No **ERP** was detected in **outcome-locked plots**.
+   - Why o **ERP** was detected in **outcome-locked plots**.
 
 ---
 
+## Figure
+![HEP Plot](https://github.com/HamedGhaneS/ECG-EEG-Based-BCI/blob/main/Step_3%20(Pilot)/Data%20Analalysis/2025.01.24/Plots.png)
+*Figure 1: HEP Analysis.*
