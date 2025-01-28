@@ -1,3 +1,61 @@
+"""
+# EEG-HEP Analysis Script
+# Author: Hamed GHane
+# Date: January 28, 2025
+
+# Workflow Overview:
+1. **Dependencies:**
+   - Import libraries: `mne`, `numpy`, `matplotlib`, `scipy`, `os`.
+
+2. **Electrode Groups and Conditions:**
+   - Define electrode groups (e.g., `Frontocentral`, `Centroparietal`).
+   - Map experimental conditions to event types and file paths.
+
+3. **Preprocessing Functions:**
+   - `find_continuous_periods`: Identify significant time periods (e.g., >15 ms).
+   - `process_and_plot`: Perform baseline correction and HEP analysis:
+       - **Baseline correction:** (-0.2 to -0.05 seconds).
+       - **Averaging:** Combine trials or R-peaks (R1, R2, R3).
+   - `plot_results`: Plot data with statistical overlays:
+       - Calculate mean, SEM, and significant time periods (p < 0.05).
+   - `get_participant_paths`: Retrieve base paths for participant-specific data.
+   - `get_epoch_files`: Construct file paths for epochs.
+
+4. **Interactive Workflow:**
+   - Prompt user for participant name (`Elmira` or `Harry`).
+   - Verify and load participant data.
+
+5. **Data Preprocessing:**
+   - **Epoch loading:** Load R-locked and Outcome-locked data.
+   - **Channel selection:** Pick channels for analysis.
+   - **Baseline correction:** Normalize data.
+
+6. **Statistical Analysis:**
+   - Perform t-tests between conditions.
+   - Identify significant time windows (p < 0.05).
+   - Label continuous significant periods (≥15 ms).
+
+7. **Visualization:**
+   - Generate and save:
+       - Combined HEP analysis (Outcome-locked and Averaged R-peaks).
+       - Individual R-peak analysis (R1, R2, R3) per electrode group.
+   - Add mean, SEM, and significance markers to plots.
+
+8. **Output Management:**
+   - Create output directories for figures.
+   - Save high-resolution plots for each condition.
+
+9. **Program Flow:**
+   - Loop through participants.
+   - Process data for each condition (e.g., `abs_pe`, `pe_sign`).
+   - Handle errors during data loading, processing, and saving.
+
+# Note:
+- This script processes EEG-HEP data for participant-specific real-time BCI experiments.
+"""
+
+
+
 import mne
 import numpy as np
 import matplotlib.pyplot as plt
