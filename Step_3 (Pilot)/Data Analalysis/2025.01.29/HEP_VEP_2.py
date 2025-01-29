@@ -1,3 +1,76 @@
+# HEP_VEP_2.py - EEG HEP & VEP Analysis Script
+# Author: Hamed Ghane
+# Date: January 29, 2025
+
+# ==========================================
+# Overview:
+# - This script processes and analyzes EEG data for:
+#   1. Heartbeat Evoked Potentials (HEP)
+#   2. Visual Evoked Potentials (VEP)
+# - Uses MNE-Python for EEG data handling.
+# - Performs baseline correction, statistical testing, and plotting.
+
+# ==========================================
+# 1. Electrode Grouping:
+# - Defines electrode groups for different analyses:
+#   - HEP:
+#     - "Frontocentral": ['F1', 'F2', 'Fz', 'FC1', 'FC2', 'FCz']
+#     - "Centroparietal": ['C1', 'C2', 'Cz', 'CP1', 'CP2', 'CPz']
+#   - VEP:
+#     - "Primary_VEP": ['O1', 'O2', 'Oz']  # Primary visual cortex
+#     - "Extended_VEP": ['PO7', 'PO8', 'PO3', 'PO4', 'P7', 'P8', 'P3', 'P4', 'Pz']
+
+# ==========================================
+# 2. Experimental Conditions:
+# - Three conditions are analyzed:
+#   1. "abs_pe" (Absolute Prediction Error)
+#   2. "pe_sign" (Prediction Error Sign)
+#   3. "vep" (Visual Evoked Potentials)
+# - Each condition has specific event markers for analysis.
+
+# ==========================================
+# 3. Processing Workflow:
+# - 3.1. User Input:
+#   - Asks for participant name ("Elmira" or "Harry").
+#   - Retrieves corresponding EEG data file paths.
+
+# - 3.2. Loading EEG Data:
+#   - Reads preprocessed EEG epochs from .fif files.
+#   - Organizes files based on condition type.
+
+# - 3.3. EEG Preprocessing:
+#   - Extracts relevant EEG channels.
+#   - Applies baseline correction (-200ms to -50ms).
+#   - Averages across R-peaks for HEP analyses.
+
+# - 3.4. Statistical Analysis:
+#   - Computes t-tests between trial conditions.
+#   - Identifies significant time periods (p < 0.05).
+#   - Groups consecutive significant time points.
+
+# ==========================================
+# 4. Visualization:
+# - Generates the following plots:
+#   - HEP: Outcome-locked & R-peak-averaged signals.
+#   - VEP: Stimulus-locked & Outcome-locked signals.
+#   - Normal and inverted polarity plots.
+# - Saves plots in an output directory.
+
+# ==========================================
+# 5. Key Functions:
+# - find_continuous_periods(): Identifies continuous significant EEG periods.
+# - process_and_plot(): Computes & visualizes HEP/VEP signals.
+# - plot_results(): Performs statistical analysis and plotting.
+# - get_participant_paths(): Returns EEG data paths for a given participant.
+# - get_epoch_files(): Retrieves EEG epoch file paths for different conditions.
+# - main(): Handles user input, loads data, processes conditions, and generates plots.
+
+# ==========================================
+# 6. Execution:
+# - Runs in a loop for multiple participants.
+# - User can exit by entering 'q'.
+# - Handles missing file warnings.
+
 import mne
 import numpy as np
 import matplotlib.pyplot as plt
