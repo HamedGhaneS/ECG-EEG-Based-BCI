@@ -1,0 +1,35 @@
+Channel Quality Analysis Report for Harry
+==================================================
+
+
+Variance:
+------------------------------
+F7: z-score = 2.17
+T7: z-score = 3.26
+AF7: z-score = 4.78
+
+Kurtosis:
+------------------------------
+F7: z-score = 2.67
+T7: z-score = 3.41
+P5: z-score = 4.26
+FT7: z-score = 3.58
+
+Line Noise Ratio:
+------------------------------
+Fp1: z-score = 7.53
+
+Hf Ratio:
+------------------------------
+Fp1: z-score = 4.63
+T7: z-score = 2.61
+
+Summary of Problematic Channels:
+------------------------------
+Channels with metrics exceeding 2 standard deviations:
+- AF7
+- F7
+- FT7
+- Fp1
+- P5
+- T7
