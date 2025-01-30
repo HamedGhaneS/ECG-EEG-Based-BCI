@@ -1,0 +1,38 @@
+Channel Quality Analysis Report for Elmira
+==================================================
+
+
+Variance:
+------------------------------
+Fp1: z-score = 4.13
+F7: z-score = 4.27
+AF7: z-score = 3.88
+
+Kurtosis:
+------------------------------
+Fp1: z-score = 2.15
+F4: z-score = 2.29
+F7: z-score = 4.14
+FC4: z-score = 2.14
+F5: z-score = 2.58
+AF7: z-score = 3.49
+
+Line Noise Ratio:
+------------------------------
+Fp1: z-score = 7.84
+
+Hf Ratio:
+------------------------------
+FC5: z-score = 2.14
+F5: z-score = 2.02
+
+Summary of Problematic Channels:
+------------------------------
+Channels with metrics exceeding 2 standard deviations:
+- AF7
+- F4
+- F5
+- F7
+- FC4
+- FC5
+- Fp1
