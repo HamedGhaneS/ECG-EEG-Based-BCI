@@ -1,3 +1,5 @@
+Here's the updated report with figure placeholders:
+
 # Analysis Issue Report: Event Sorting Effect on EEG Epoching
 
 ## Issue Identification
@@ -26,17 +28,19 @@ events = [
 ]
 ```
 
-This resulted in:
-1. Timing information being preserved
-2. Event IDs being incorrectly reassigned
-3. All high_pe trials being grouped at the beginning
-4. All low_pe trials being grouped at the end
+## Impact & Visualization
+The sorting created an artificial temporal bias demonstrated in the figures below:
 
-## Impact
-The sorting created an artificial temporal bias where:
-- Early trials were predominantly labeled as high_pe
-- Late trials were predominantly labeled as low_pe
-- This produced a systematic temporal shift in the averaged HEP waveforms
+![Figure 1: HEP analysis with incorrect sorting](Step_3 (Pilot)/Data Analalysis/2025.02.03/FInding the Issu in Epoching/Before.png)
+*Figure 1: HEP analysis with event sorting. Note the systematic temporal shift between high_pe (red) and low_pe (blue) conditions, particularly around the R-peak (t=0).*
+
+![Figure 2: HEP analysis after removing sorting](Step_3 (Pilot)/Data Analalysis/2025.02.03/FInding the Issu in Epoching/After.png)
+*Figure 2: HEP analysis without event sorting. The temporal alignment between conditions is now correct, showing proper synchronization around the R-peak.*
+
+The impact of sorting resulted in:
+- Early trials being predominantly labeled as high_pe
+- Late trials being predominantly labeled as low_pe
+- Creating a systematic temporal shift in the averaged HEP waveforms
 
 ## Solution
 Removing the sorting line preserved the natural experimental sequence:
@@ -49,7 +53,7 @@ events = np.array(events, dtype=int)
 The solution was verified by:
 1. Comparing epoch timing information with and without sorting
 2. Confirming proper condition labeling matches the original behavioral data
-3. Observing that the artificial temporal shift in HEP waveforms disappeared
+3. Observing that the artificial temporal shift in HEP waveforms disappeared (see Figure 2)
 
 ## Conclusion
-This case demonstrates how a single line of preprocessing code can introduce systematic biases in EEG/ERP analyses, highlighting the importance of careful data processing validation.
+This case demonstrates how a single line of preprocessing code can introduce systematic biases in EEG/ERP analyses, highlighting the importance of careful data processing validation. The corrected analysis reveals the true temporal relationships between conditions in the HEP data.
