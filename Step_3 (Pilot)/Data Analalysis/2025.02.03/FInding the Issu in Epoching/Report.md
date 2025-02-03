@@ -31,10 +31,12 @@ events = [
 ## Impact & Visualization
 The sorting created an artificial temporal bias demonstrated in the figures below:
 
-![Figure 1: HEP analysis with incorrect sorting](Step_3 (Pilot)/Data Analalysis/2025.02.03/FInding the Issu in Epoching/Before.png)
+![Figure 1: HEP analysis with incorrect sorting](Step_3%20(Pilot)/Data%20Analalysis/2025.02.03/FInding%20the%20Issu%20in%20Epoching/Before.png)
+
 *Figure 1: HEP analysis with event sorting. Note the systematic temporal shift between high_pe (red) and low_pe (blue) conditions, particularly around the R-peak (t=0).*
 
-![Figure 2: HEP analysis after removing sorting](Step_3 (Pilot)/Data Analalysis/2025.02.03/FInding the Issu in Epoching/After.png)
+![Figure 2: HEP analysis after removing sorting](Step_3%20(Pilot)/Data%20Analalysis/2025.02.03/FInding%20the%20Issu%20in%20Epoching/After.png)
+
 *Figure 2: HEP analysis without event sorting. The temporal alignment between conditions is now correct, showing proper synchronization around the R-peak.*
 
 The impact of sorting resulted in:
